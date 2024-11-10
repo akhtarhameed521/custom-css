@@ -1,21 +1,18 @@
 /* Navbar main container */
-.navbar {
-    color: white;
-    padding: 16px;
-  }
+
   
   /* Navbar layout container */
   .navbar-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
+    background-color: #1D4ED8;
+    padding: 20px;
   }
   
   /* Logo */
-  .navbar-logo img {
-    height: 50px;
-    width: 50px;
-  }
+ 
   
   /* Desktop Menu */
   .desktop-menu {
@@ -235,7 +232,7 @@
   .card-details {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 10px;
     margin-top: 20px;
     align-items: center;
     color: #64748b;

@@ -8,9 +8,9 @@ import "./style.css";
 export default function AboutPage() {
   return (
     <div className="bg-gray-100 text-gray-800">
-      <div className="navbar-1" >
+      {/* <div className="navbar-1" >
         <Navbar   />
-      </div>
+      </div> */}
 
       {/* Hero Section */}
       <div className="hero-section">

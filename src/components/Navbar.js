@@ -11,11 +11,11 @@ export default function Navbar({ className }) {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
-    <div className={`${className} navbar`}>
+    <div className={` navbar`}>
       <div className='navbar-container'>
         
         {/* Logo */}
-        <div className=''>
+        <div >
           <Image src={images.logo} height={150} width={150} alt="Logo" />
         </div>
 

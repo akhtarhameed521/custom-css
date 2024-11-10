@@ -33,12 +33,10 @@ export default function Home() {
     <>
       <div className={styles.pageBackground}>
         {/* Navbar */}
-        <div className={`${styles.maxWidthContainer} ${styles.navbarContainer}`}>
-          <Navbar />
-        </div>
+       
 
         {/* Hero Section */}
-        <div className={`${styles.heroSection} hero-section`}>
+        <div className={`${styles.heroSection}`}>
           <AnimatePresence>
             <motion.div
               key={currentImage}

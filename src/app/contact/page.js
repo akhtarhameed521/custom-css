@@ -8,11 +8,11 @@ import styles from "./Contact.module.css"; // Import custom CSS
 export default function ContactUsPage() {
   return (
     <div className={styles.pageContainer}>
-      <div className={styles.navbarContainer}>
+      {/* <div className={styles.navbarContainer}>
        
           <Navbar className={styles.navbar} />
        
-      </div>
+      </div> */}
 
       {/* Hero Section */}
       <div className={styles.heroSection}>
